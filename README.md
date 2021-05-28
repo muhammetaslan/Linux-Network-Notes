@@ -31,15 +31,19 @@ $ find <path_of_direc>  -size +10000k
 $ grep [options] pattern [files]
 
 For example, grep directory recursively:
+
 $ grep -r "texthere" /home/
 
 For example, grep the word printf:
+
 $ grep printf /path/filename.txt
 
 For example, find previously used commands which include systemctl
+
 $ history | grep systemctl
 
 For example, find the last login(s) for username:
+
 $ last | grep username
 
 -----------------------------------------------------------------------
